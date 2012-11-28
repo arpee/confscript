@@ -1,0 +1,7 @@
+This script is in development and only shows the basics of how it should work.
+
+Use run ./setup from the directory. 
+For evey file in the directory a backup will be made of the hidden file of the same name in the root of your home.
+Each will then be replaced with a symlink to the confscript directory.
+
+This enables simple git management of your environmental variables, bash setting etc.
